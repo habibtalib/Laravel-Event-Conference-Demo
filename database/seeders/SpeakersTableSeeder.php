@@ -1,5 +1,7 @@
 <?php
 
+namespace Database\Seeders;
+
 use App\Speaker;
 use Illuminate\Database\Seeder;
 
