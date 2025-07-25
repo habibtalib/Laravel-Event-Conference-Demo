@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Speaker;
+use Faker\Factory as Faker;
 use Illuminate\Database\Seeder;
 
 class SpeakersTableSeeder extends Seeder
@@ -14,7 +15,7 @@ class SpeakersTableSeeder extends Seeder
      */
     public function run()
     {
-        $faker = Faker\Factory::create();
+        $faker = Faker::create();
         $speakers = [
             [
                 'name'              => 'Brenden Legros',

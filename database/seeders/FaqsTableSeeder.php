@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Faq;
+use Faker\Factory as Faker;
 use Illuminate\Database\Seeder;
 
 class FaqsTableSeeder extends Seeder
@@ -14,7 +15,7 @@ class FaqsTableSeeder extends Seeder
      */
     public function run()
     {
-        $faker = Faker\Factory::create();
+        $faker = Faker::create();
 
         foreach(range(1, 6) as $key)
         {
